@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    class Square:TwoDimensionalShape
+    class Sphere:ThreeDimensionalShape
     {
+        public Sphere()
+        {
+            this._name = "SPHERE";
+        }
     }
 }

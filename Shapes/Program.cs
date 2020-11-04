@@ -10,6 +10,10 @@ namespace Shapes
     {
         static void Main(string[] args)
         {
+
+            Cube cube = new Cube();
+            Console.WriteLine(cube.Name);
+
         }
     }
 }

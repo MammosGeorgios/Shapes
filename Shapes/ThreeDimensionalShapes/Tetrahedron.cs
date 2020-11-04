@@ -4,17 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shapes
+namespace Shapes.ThreeDimensionalShapes
 {
-    class Shape
+    class Tetrahedron:ThreeDimensionalShape
     {
-        private protected string _name;
-
-        public string Name
+        public Tetrahedron()
         {
-            get { return (this._name); }
-
+            this._name = "TETRAHEDRON";
         }
-
     }
 }

@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    class Shape
+    class Circle:TwoDimensionalShape
     {
-        private protected string _name;
-
-        public string Name
+        public Circle()
         {
-            get { return (this._name); }
-
+            this._name = "CIRCLE";
         }
-
     }
 }

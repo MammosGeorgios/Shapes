@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    class Shape
+    class Cube:ThreeDimensionalShape
     {
-        private protected string _name;
-
-        public string Name
+        public Cube()
         {
-            get { return (this._name); }
-
+            this._name = "Cube";
         }
-
     }
 }
