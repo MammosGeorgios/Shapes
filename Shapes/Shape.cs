@@ -13,6 +13,7 @@ namespace Shapes
         public string Name
         {
             get { return (this._name); }
+            set { _name = value; }
 
         }
 

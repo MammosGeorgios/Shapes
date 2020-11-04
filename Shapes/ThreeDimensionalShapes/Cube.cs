@@ -10,7 +10,7 @@ namespace Shapes
     {
         public Cube()
         {
-            this._name = "Cube";
+            this.Name = "Cube";
         }
     }
 }
